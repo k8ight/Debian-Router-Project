@@ -10,4 +10,4 @@ Make any debian distributuion a router or install from our prebuild iso
   </ul>
 
 # Post Install
- <strong>After install(both type) and setting LAN management interfaces conect a wire from the LAN inerface(Default ip 192.168.0.1/24) to the (LAN device) issue a static ip on (LAN device's) interface (like 192.168.0.2/24) conect to LAN  interfaces(Default ip 192.168.0.1)  and assign WAN,OPT,LAN interfaces from gui.OS SUPPORT STP for multi port assigned to LAN WAN OPT. Assignment of Multiple Ip is restricted, ip inserted must be in ip/subnet charecter(Like 192.168.0.1/24)  </strong>
+ <strong>After install(both type) and setting LAN management interfaces conect a wire from the LAN inerface(Default ip 192.168.0.1/24) to the (LAN device) issue a static ip on (LAN device's) interface (like 192.168.0.2/24) connect to LAN  interfaces(Default ip https://192.168.0.1)  and assign WAN,OPT,LAN interfaces from gui.OS SUPPORT STP for multi port assigned to LAN WAN OPT. Assignment of Multiple Ip is restricted, ip inserted must be in ip/subnet charecter(Like 192.168.0.1/24)  </strong>
