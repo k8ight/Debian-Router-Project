@@ -1,7 +1,7 @@
 # Debian-Router-Project
 Make any debian distributuion a router or install from our prebuild iso
 
-#Installer
+# Installer
 <ul>
  <li>For Debian Distribution Debian package:-<a href="https://github.com/sounakkar/Debian-Router-Project/blob/main/DEBIAN/drp.deb?raw=true">Download</a>
  <strong>for this search single desired network interface manually then insert using echo "enp0s3" > /var/www/html/network/igs/LAN/assign </strong>
