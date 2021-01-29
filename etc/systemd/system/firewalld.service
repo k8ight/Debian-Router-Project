@@ -1,0 +1,13 @@
+[Unit]
+Description=Firewalld Service
+After=multi-user.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=no
+User=root
+ExecStart=/bin/bash /usr/bin/firewall.sh
+
+[Install]
+WantedBy=multi-user.target

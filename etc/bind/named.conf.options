@@ -1,0 +1,20 @@
+options {
+       directory "/var/cache/bind";
+
+        recursion yes;
+        #do not touch before this
+
+        forwarders {
+                8.8.8.8;
+                1.1.1.1;
+                4.2.2.2;
+                9.9.9.9;
+        };
+        forward only;
+         #do not touch after this
+        dnssec-enable yes;
+        dnssec-validation yes;
+
+        auth-nxdomain no;    # conform to RFC1035
+        listen-on-v6 { any; };
+};

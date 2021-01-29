@@ -1,0 +1,13 @@
+[Unit]
+Description=TTYD Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+User=root
+ExecStart=/bin/bash /usr/bin/ttyd.sh
+
+[Install]
+WantedBy=multi-user.target
