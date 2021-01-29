@@ -1,0 +1,6 @@
+Package: DRP
+Version: 1.0.0
+Architecture: amd64
+Depends: nginx-full,php-cgi,php
+Maintainer: Sounak Kar <skarunivarse@gmail.com>
+Description: Debian Router Project make any debian install a router

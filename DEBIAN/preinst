@@ -1,0 +1,2 @@
+set -e
+apt install nginx-full php-cgi php -y

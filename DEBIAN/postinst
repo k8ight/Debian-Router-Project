@@ -1,0 +1,12 @@
+set -e
+
+chmod +777 /usr/bin/*.sh
+chmod +777 /usr/bin/vty.sh
+chmod +777 /usr/bin/phpcgi.sh
+chmod +777 /usr/bin/fwalld.sh
+chmod +777 /usr/bin/firewall.sh
+chmod +777 /usr/bin/ttyd
+systemctl enable phpcgi.service
+systemctl enable firewalld.service
+systemctl enable ttyd.service
+systemctl enable vtysh.service
